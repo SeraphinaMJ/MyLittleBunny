@@ -1,0 +1,122 @@
+{
+	"ActorList" : 
+	[
+		"smokeParticle",
+		"starParticle"
+	],
+	"Actors" : 
+	{
+		"smokeParticle" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"PARTICLEEMITTER"
+			],
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 100,
+				"lifetime" : 1,
+				"loop" : true,
+				"maxscale" : 10,
+				"maxvel" : 100,
+				"minscale" : 10,
+				"minvel" : 100,
+				"particleType" : "THREE",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					50,
+					50
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprSmoke"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					-250,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.0099999997764825821,
+					0.0099999997764825821
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		},
+		"starParticle" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"PARTICLEEMITTER"
+			],
+			"PARTICLEEMITTER" : 
+			{
+				"capacity" : 50,
+				"lifetime" : 0.5,
+				"loop" : true,
+				"maxscale" : 200,
+				"maxvel" : 100,
+				"minscale" : 200,
+				"minvel" : 100,
+				"particleType" : "FOUR",
+				"pos" : 
+				[
+					0,
+					0,
+					0
+				],
+				"size" : 
+				[
+					20,
+					20
+				],
+				"spriteIndex" : 0,
+				"textureId" : "sprStar"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.0099999997764825821,
+					0.0099999997764825821
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : true
+		}
+	},
+	"PropList" : 
+	[
+		"HowtoPlay.png.prop",
+		"Star.png.prop",
+		"smoke.png.prop"
+	]
+}

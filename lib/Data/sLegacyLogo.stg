@@ -1,0 +1,141 @@
+{
+	"ActorList" : 
+	[
+		"camera",
+		"DigipenLogo",
+		"TeamLogo"
+	],
+	"Actors" : 
+	{
+		"DigipenLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					0,
+					0,
+					0,
+					1
+				],
+				"textureId" : "sprLogoDigi"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					1,
+					1
+				],
+				"size" : 
+				[
+					512,
+					128
+				]
+			},
+			"isActive" : true
+		},
+		"TeamLogo" : 
+		{
+			"Components" : 
+			[
+				"TRANSFORM",
+				"DISPLAY"
+			],
+			"DISPLAY" : 
+			{
+				"animPlaying" : false,
+				"drawType" : "HUD",
+				"spriteIndex" : 0,
+				"textureColor" : 
+				[
+					1,
+					1,
+					1,
+					1
+				],
+				"textureId" : "sprLogoTeam"
+			},
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0.5,
+					0.5
+				],
+				"size" : 
+				[
+					512,
+					420
+				]
+			},
+			"isActive" : false
+		},
+		"camera" : 
+		{
+			"CAMERA" : 
+			{
+				"zoom" : 1
+			},
+			"Components" : 
+			[
+				"TRANSFORM",
+				"CAMERA"
+			],
+			"TRANSFORM" : 
+			{
+				"position" : 
+				[
+					0,
+					0,
+					0
+				],
+				"rotation" : 0,
+				"scale" : 
+				[
+					0,
+					0
+				],
+				"size" : 
+				[
+					0,
+					0
+				]
+			},
+			"isActive" : false
+		}
+	},
+	"PropList" : 
+	[
+		"TeamLogo.png.prop",
+		"DigipenLogo.png.prop",
+		"menu.ogg.prop",
+		"jump.ogg.prop",
+		"fly.ogg.prop",
+		"hit.ogg.prop",
+		"lose.ogg.prop",
+		"win.ogg.prop"
+	]
+}
